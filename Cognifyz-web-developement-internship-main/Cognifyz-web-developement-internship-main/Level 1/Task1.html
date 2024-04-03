@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .logo{
+            text-align: center;
+            font-size: 2rem; 
+            text-decoration: underline;           
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(135, 222, 213);
+        }
+        ul{
+            display: flex;            
+        }
+        li{
+            padding: 15px;
+            list-style-type:none;
+        }
+        a{
+            text-decoration: none;
+            color:#000;
+        }
+        #sec1,#sec2{
+            width: 100%;
+            height: 60vh;
+            text-align: center;
+            padding: 4rem 0px;
+            font-size: 2rem;
+            background-color: rebeccapurple;
+            color: aliceblue;
+            font-family: 'Courier New', Courier, monospace;
+        
+        }
+        .scroll{
+            margin-top: 15%;
+
+        }
+        .para{
+            margin: 0 15rem;
+        }
+        #sec2{
+            background-color: #0cfbfb;
+            color: #000;
+            height: 80vh;    
+        }
+        #sec3{
+            color:#000;
+            background-color: rebeccapurple;
+            padding: 50px;
+            
+            
+        }
+        .form_title{
+            text-align: center;
+
+        }
+
+        .form_b{
+            margin-left: 620px;
+        }
+        form{
+            background-color: #fefefe;
+            border: 5px solid ;
+            padding: 25px;
+            width:300px;
+          
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="logo">
+           <b>TASK-1</b> 
+        </h1>
+        <ul>
+            <li>
+                <a href="#sec1">Home</a>
+            </li>
+            <li>
+                <a href="#sec2">content</a>
+            </li>
+            <li>
+                <a href="#sec3">Form</a>
+            </li>
+        </ul>
+
+    </header>
+    <section id="sec1">
+        
+        <h1>Hi I am Manikanta</h1>
+        <p class="para">Thanks to Cognifyz Technologies who gives me this opperutines to enhance my learning in web development.</p>
+        <p class="scroll">Scroll here</p>
+    </section>
+    <section id="sec2">
+        <img src="thumb1.png" alt=" " width="30%">
+        <h1>Explore Every Adventures</h1>
+        <p >Scroll Down</p>
+       
+    </section>
+    
+    <section id="sec3">
+        <h1 class="form_title">Form Us</h1>
+        <form class="form_b">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" placeholder="Your Name"><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email"placeholder="@email.com"><br>
+            <label for="quires">Quires</label><br>
+            <textarea name="quires" id="quires" cols="30" rows="10" placeholder="Your Quires..."></textarea><br>
+            <input type="submit" value="submited">
+
+        </form>
+    </section>
+
+</body>
+</html>
